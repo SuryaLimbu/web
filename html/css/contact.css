@@ -1,0 +1,124 @@
+
+body
+{
+background-color: #FFFFFF;
+}
+
+#container{
+	width: 80%;
+
+}
+.header{
+	background-color: #9933cc;
+	display: flex;
+	padding: 1%;
+
+}
+h{
+text-transform: uppercase;
+}
+
+.title{
+	width: 40%;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: white;
+}
+.nav-bar{
+	width: 60%;
+	
+}
+.nav-bar nav ul li{
+	float: right;
+	list-style: none;
+	display: flex;
+	margin-left: 2%;
+
+
+}
+.nav-bar nav ul li a {
+
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	
+	
+	border:1px  double black;
+	border-radius: 5%;
+}
+ legend{
+ 	background-color: #000;
+ 	color: white;
+ 	padding: 1%;
+ 
+ }
+ .form{
+ 	width: 96%;
+ 	background-color: #f2f2f2;
+ 	border-radius: 5px;
+ 	padding: 2%;
+ }
+
+ input[type=text], select{
+ 	width: 100%;
+ 	padding: 12px 20px;
+ 	display: inline-block;
+ 	border-radius: 4px;
+ 	border:1px solid #ccc;
+ 	box-sizing: border-box;
+ } 
+ input[type=submit]{
+ 	width: 15%;
+ 	background-color: #4CAF50;
+ 	color: white;
+ 	border: none;
+ 	padding: 1%;
+ 	border-radius: 4px;
+ 	cursor: pointer;
+ }
+ input[type=submit]:hover{
+ 	background-color: #45a049;
+ }
+
+footer{
+		background-color: #0099cc;
+		display: flex;
+		padding: 1%;
+		color: white;
+		box-shadow: 1px 10px 5px #aaaaaa;
+}
+footer .contact{
+	width: 50%;
+	padding-left: 1%;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+footer .social{
+	width: 20%;
+}
+footer .copyright{
+	width: 30%;
+}
+@media only screen and (max-width: 600px){
+	.header{
+		flex-direction: column;
+	}
+	.title .nav-bar{
+		width: 100%
+
+	}
+	.nav-bar nav ul li {
+		flex-direction: column;
+}
+
+	
+	footer{
+		flex-direction: column;
+	}
+}
